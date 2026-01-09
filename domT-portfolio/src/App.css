@@ -1,0 +1,124 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  background: url('./assets/mainBackground.jpg'), rgba(47, 79, 79, .5);
+  background-blend-mode: darken;
+  background-size: cover;
+}
+
+button {
+  padding: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-weight: normal;
+  width: 90vw;
+  margin-left: 10px;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+h3,
+h4 {
+  margin-bottom: 0;
+  margin-left: 20px;
+  width: 90vw;
+}
+
+nav {
+  border-bottom: 2px solid rgba(49, 49, 49, 0.75);
+  text-align: left;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(105, 105, 105, .65);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 24px 24px;
+  transition: 0.75s;
+}
+
+nav a:hover {
+  background: rgba(0, 0, 0, .5);
+  color: white;
+  border-radius: 25px;
+}
+
+nav img {
+  bottom: 0;
+}
+
+footer {
+  border-top: 2px solid rgba(49, 49, 49, 0.75);
+  text-align: center;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgba(100, 115, 115, 0.95);
+}
+
+footer a,
+div p li a {
+  color: aquamarine
+}
+
+footer a:hover,
+footer a:hover:visited,
+div p a:hover,
+div p a:hover:visited {
+  color: plum
+}
+
+footer a:visited,
+div a:visited {
+  color: coral
+}
+
+#page-body {
+  max-width: 960px;
+  margin: 20px;
+  padding-top: 50px;
+}
+#NavbarItem {
+  position:sticky;
+}
+
+div {
+  display: grid;
+  width: 80vw;
+}
+
+div li {
+  margin-inline-start: 40px;
+  justify-content: center;
+}
+
+nav a:visited {
+  color: white
+}
