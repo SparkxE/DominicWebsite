@@ -1,0 +1,21 @@
+import './Pages.css';
+function Education() {
+
+    return (
+        <div id='education'> 
+            <h1>Current Education & Relevant Classes</h1>
+            <div id='schools'>
+                <div>
+                    <ul>
+                        <h2>
+                            <strong></strong>
+                        </h2>
+                        <em>Degree & Major</em>: 
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    )
+}
+export default Education;
