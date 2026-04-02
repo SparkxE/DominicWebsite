@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import './ImageCarousel.css';
-import {imageList} from "./ImageData";
+import { imageList } from "./ImageData";
 
 function ImageCarousel() {
 
@@ -16,13 +16,18 @@ function ImageCarousel() {
         setCurrentImageIndex((currentImageIndex + 1) % imageList.length);
     }
 
-    function SetClassname(currentImageIndex: number, index: number){
-        switch(currentImageIndex){
-            case index: 
+    function SetClassname(currentImageIndex: number, index: number) {
+        switch (currentImageIndex) {
+            case index:
                 return "slideIn";
-            case (index + 1) % imageList.length: 
-                return "slideOut";
-            default: 
+            case (index + 1):
+                return "";
+            case 1:
+                if(index == imageList.length){
+                    return "";
+                }
+                break;
+            default:
                 return "hidden";
         }
     }
@@ -31,7 +36,7 @@ function ImageCarousel() {
     useEffect(() => {
         const timer = setTimeout(() => {
             handleNextClick();
-        }, 10000);
+        }, 6000);
         return () => clearTimeout(timer);
     }, [currentImageIndex]);
 
