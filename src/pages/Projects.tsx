@@ -1,11 +1,12 @@
 import './Pages.css';
+import ImageCarousel from './Carousel/ImageCarousel';
 function Projects() {
 
     return (
         <div id="work-history">
             <h1>Project History</h1>
             <div id="projects">
-                <div>
+                <div> 
                     <ul>
                         <h2>
                             <strong><br /></strong>
@@ -14,6 +15,7 @@ function Projects() {
                         <li></li>
                     </ul>
                 </div>
+                <ImageCarousel></ImageCarousel>
             </div>
         </div>
     )
