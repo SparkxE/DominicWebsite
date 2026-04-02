@@ -7,16 +7,16 @@ function Contact() {
                 <div>
                     <ul>
                         <h2>Direct Contact: </h2>
-                        <li>Email: <a href="" title="Contact Dominic Tverberg via Email"></a></li>
-                        <li>Phone: <a href="tel:+1 "></a></li>
+                        <li>Email: <a href="mailto:DominicTverberg@gmail.com" title="Contact Dominic Tverberg via Email">DominicTverberg@Gmail.com</a></li>
+                        {/* <li>Phone: <a href="tel:+1 "></a></li> */}
                     </ul>
                 </div>
-                <div>
+                {/* <div>
                     <ul>
                         <h2>Profiles: </h2>
                         <li></li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </div>
     )

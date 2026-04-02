@@ -46,7 +46,7 @@ function App() {
         </div>
         <div>
           <footer>
-            This site was created by Aaron Anderson using React.JS and Vite
+            This site was created by <a href='https://sparkxe.github.io/ResumeSite/'>Aaron Anderson</a> using React.JS and Vite
           </footer>
         </div>
       </div>
