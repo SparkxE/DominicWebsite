@@ -9,13 +9,13 @@ function Projects() {
                 <div> 
                     <ul>
                         <h2>
-                            <strong><br /></strong>
+                            <strong>Location/Title<br /></strong>
                         </h2>
-                        <em></em>
-                        <li></li>
+                        <em>Date Worked On</em>
+                        <li>Short Description</li>
                     </ul>
                 </div>
-                <ImageCarousel></ImageCarousel>
+                <ImageCarousel/>
             </div>
         </div>
     )

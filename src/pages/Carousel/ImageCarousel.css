@@ -24,41 +24,44 @@
   width: 100%;
   border-radius: 0.75rem;
   object-fit: cover;
-  transition-behavior: allow-discrete;
-}
-
-.slideOut {
-  animation: slideOut 2s ease;
-}
-
-.slideIn {
-  animation: slideIn 2s ease;
+  transition: opacity 2s ease, transform 0.5s ease;
 }
 
 .hidden {
   display: none;
 }
 
-@keyframes slideIn {
+.fadeOut {
+  animation: fadeOut 2s ease;
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease;
+  transition-delay: 1s;
+  display: block;
+}
+
+@keyframes fadeIn {
   from {
-    translate: 100vw 0;
-    display: none;
+    opacity: 0;
+    transform: scale(0.98);
   }
 
   to {
-    translate: 0vw 0;
-    display: block;
+    opacity: 1;
+    transform: scale(1);
   }
 }
 
-@keyframes slideOut {
+@keyframes fadeOut {
   from {
-    translate: 0vw 0;
-    display: block;
+    opacity: 1;
+    transform: scale(1);
   }
 
   to {
-    translate: -100vw 0;
+    opacity: 0;
+    transform: scale(0.98);
     display: none;
   }
 }

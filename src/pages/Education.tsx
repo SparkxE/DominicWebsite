@@ -8,10 +8,10 @@ function Education() {
                 <div>
                     <ul>
                         <h2>
-                            <strong></strong>
+                            <strong>School</strong>
                         </h2>
                         <em>Degree & Major</em>: 
-                        <li></li>
+                        <li>Relevant Classes Taken </li>
                     </ul>
                 </div>
             </div>
